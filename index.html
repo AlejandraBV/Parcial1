@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,41 +21,24 @@
           <h1 style="font-family: 'Satisfy', cursive">Restaurant & Lounge</h1>
         </div>
         <div class="col-lg-3 d-flex align-items-center justify-content-end">
-          <button
-            href="#car"
-            id="shoppingCart"
-            class="bcart"
-            onclick="showCart()"
-          >
-            <img src="./shoppingcar.png" width="40px" />
+          <button id="shoppingCart" class="bcart" onclick="showCart()">
+            <img src="./shoppingcar.png" width="40" alt="" />
           </button>
-          <h7 class="pr-5" id="dItems">0 items</h7>
+          <p class="pr-5" id="dItems">0 items</p>
         </div>
       </div>
       <hr />
-      <img src="./imgcentral.png" width="100%"/>
+      <div class="divImg"><img src="./imgcentral.png" alt="" /></div>
       <hr />
-      <div class="d-flex justify-content-start navbar header">
-        <a href="#burgers">
-          <button onclick="getElement('Burguers')">Burgers</button></a
-        >
-        <a href="#tacos"
-          ><button onclick="getElement('Tacos')">Tacos</button></a
-        >
-        <a href="#salads"
-          ><button onclick="getElement('Salads')">Salads</button></a
-        >
-        <a href="#desserts"
-          ><button onclick="getElement('Desserts')">Desserts</button></a
-        >
-        <a href="#drinksNSides"
-          ><button onclick="getElement('Drinks and Sides')">
-            Drinks & Sides
-          </button></a
-        >
+      <div class="d-flex justify-content-start navbar header navDiv">
+        <button onclick="getElement('Burguers')">Burgers</button>
+        <button onclick="getElement('Tacos')">Tacos</button>
+        <button onclick="getElement('Salads')">Salads</button>
+        <button onclick="getElement('Desserts')">Desserts</button>
+        <button onclick="getElement('Drinks and Sides')">Drinks & Sides</button>
       </div>
       <hr />
-      <h3 style="text-align: center; font-weight: bold" id="ctitle"></h3>
+      <h3 style="text-align: center; font-weight: bold" id="ctitle">...</h3>
       <hr />
       <div id="divCards"></div>
       <hr />
@@ -76,7 +60,13 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel" style="font-weight: bold">Cancel the order</h5>
+            <h5
+              class="modal-title"
+              id="exampleModalLabel"
+              style="font-weight: bold"
+            >
+              Cancel the order
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -94,17 +84,18 @@
             >
               Yes, I want to cancel the order
             </button>
-            <button type="button" class="bCancel" data-bs-dismiss="modal">No, I want to continue adding products</button>
+            <button type="button" class="bCancel" data-bs-dismiss="modal">
+              No, I want to continue adding products
+            </button>
           </div>
         </div>
       </div>
     </div>
-    
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-  </body>
   </body>
 </html>
