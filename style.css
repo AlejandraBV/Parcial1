@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #ffffff;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #323a40;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header button {
+  background-color: transparent;
+  border-style: none;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+.bcart {
+  background-color: transparent;
+  border-style: none;
+  border: none;
+  color: transparent;
+  outline: none !important;
+}
+
+bcart:hover,
+bcart:focus {
+  outline: none;
+}
+
+.content-img img {
+  width: 100x100px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.mbtn {
+  background-color: #333a40;
+  border-style: none;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+.mbtn:hover {
+  color: white;
+}
+
+.bdiv .mbtn {
+  float: left;
+  position: absolute;
+  bottom: 20;
+}
+
+.bdiv p {
+  float: left;
+  position: absolute;
+  bottom: 60;
+}
+
+.mod {
+  width: 25px;
+  height: 30px;
+  background-color: #6b757d;
+  border-style: none;
+  color: rgb(255, 255, 255);
+  outline: none !important;
+  border-radius: 4px;
+  margin-left: 3px;
+  padding: 0 10px;
+}
+
+.bCancel {
+  background-color: #fb575b;
+  border-radius: 4px;
+  margin-left: 3px;
+  height: 30px;
+  border: 1px solid #4bb8b7;
+  outline: none !important;
+}
+
+.bConfirm {
+  background-color: #f3e8dd;
+  border-radius: 4px;
+  margin-left: 3px;
+  height: 30px;
+  border: 1px solid black;
+  outline: none !important;
+}
+
+#divBut {
+  padding-left: 10px;
+  text-align: center;
+}
+
+#botDiv {
+  padding-left: 166px;
+}
+
+td,
+th {
+  letter-spacing: -0.5px;
+}
